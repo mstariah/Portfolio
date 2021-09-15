@@ -1,0 +1,166 @@
+body {
+  background-color: #f8f0e3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: 0;
+  padding: 16% 2% 5% 4px;
+}
+
+.link {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  float: right;
+  margin: 0 auto;
+  padding: 30px 10px 10px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #800080;
+}
+
+.nav .active{
+	background-color: #800080;
+	color: #444444;
+	cursor: default;
+}
+
+.img {
+    width:  100%;
+    height: 90%;
+    background-size: cover;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  width: 33.33%;
+  float: left;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+  .footer-link {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    float: right;
+    margin: 0 auto;
+    padding: 30px 10px 10px;
+    text-decoration: none;
+  }
+
+  .footer-link:hover {
+    color: #800080;
+  }
+
+  .copyright {
+    text-align: left;
+    color: #000000;
+    font-size: 13px;
+    padding: 20px;
+  }
+
+  .aboutme {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    margin-top: 0;
+    margin-left: 35%;
+    padding: 16% 2% 5% 4px;
+  }
+
+    h2 {
+    font-size: 35px;
+  }
+
+  .profile-photo {
+    float: left;
+    width: 20%;
+    margin-top: 0;
+    margin-right: 10%;
+    padding: 16% 2% 5% 4%;
+    /* padding: 16% 2% 5% 4px; */
+  }
+
+  .getintouch {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    margin-top: 0;
+    margin-left: 10%;
+    padding: 10% 2% 5% 4px;
+  }
+
+  h4 {
+  font-size: 25px;
+  color: purple;
+}
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin-top: 0;
+  margin-left: 10%;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 50%;
+  line-height: 70px;
+  padding: 12px 20px;
+  margin-top: 0;
+  margin-left: 10%;
+  box-sizing: border-box;
+}
+
+label {
+  margin-top: 0;
+  margin-left: 10%;
+  color: purple;
+}
+
+.formSendButton {
+  margin-left: 10%;
+  border: none;
+  padding: 10px;
+  background-color: #6a2c70;
+  color: white;
+  border-radius: 3px;
+  font-size: 18px;
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+
+}

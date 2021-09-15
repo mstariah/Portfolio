@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Iwoba Tariah</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- nav bar section -->
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+  <div class="topnav" id="myTopnav">
+
+    <a href="contact.html" class="link" class="active">CONTACT</a>
+    <a href="about.html" class="link">ABOUT</a>
+    <a href="index.html" class="link">WORK</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+
+  </div>
+
+  <div class="getintouch">
+          <h4 class="Talk">Say Hello!</h4>
+          <p class="pcontact">Depending on my availability, I may be open to questions, collaborations, projects<br />
+            & coffee. You can reach me on <a href="https://www.linkedin.com/in/iwoba-tariah-046508a1/">LinkedIn</a>,   <a href="https://www.behance.net/iwobatariah">Behance</a> or <a href="https://twitter.com/mstariah">Twitter</a>. You can also fill<br /> the form below and I'll get in touch.</p>
+  </div>
+
+<div class="form">
+
+  <form action="/action_page.php">
+  <label for="name">Your Name</label><br>
+  <input type="text" id="name" name="name" value=""><br><br>
+  <label for="email">Email Address</label><br>
+  <input type="text" id="email" name="email" value=""><br><br>
+  <label for="message">Message</label><br>
+  <textarea id="message" name="message" value=""></textarea><br><br>
+  <button class="formSendButton">Send Message</button>
+</form>
+
+</div>
+
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
